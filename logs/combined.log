@@ -442,3 +442,417 @@
   service: 'guesslife-backend',
   timestamp: '2020-08-08T06:21:08.313Z'
 }
+{
+  message: 'app name: GuessLife backend (dev)',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:25:11.210Z'
+}
+{
+  message: 'env: developement',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:25:11.215Z'
+}
+{
+  message: 'config express js and routes ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:25:11.539Z'
+}
+{
+  message: 'morgan enabled',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:25:11.555Z'
+}
+{
+  message: 'Connected to mongodb ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:25:11.579Z'
+}
+{
+  message: 'config express js and routes ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:28:36.571Z'
+}
+{
+  message: 'app name: GuessLife backend (dev)',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:28:36.591Z'
+}
+{
+  message: 'env: developement',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:28:36.592Z'
+}
+{
+  message: 'morgan enabled',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:28:36.592Z'
+}
+{
+  message: 'Connected to mongodb ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:28:36.624Z'
+}
+{
+  message: 'config express js and routes ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:28:51.558Z'
+}
+{
+  message: 'app name: GuessLife backend (dev)',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:28:51.578Z'
+}
+{
+  message: 'env: developement',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:28:51.578Z'
+}
+{
+  message: 'morgan enabled',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:28:51.579Z'
+}
+{
+  message: 'Connected to mongodb ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:28:51.609Z'
+}
+{
+  message: 'config express js and routes ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:30:49.570Z'
+}
+{
+  message: 'app name: GuessLife backend (dev)',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:30:49.591Z'
+}
+{
+  message: 'env: developement',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:30:49.592Z'
+}
+{
+  message: 'morgan enabled',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:30:49.593Z'
+}
+{
+  message: 'Connected to mongodb ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:30:49.619Z'
+}
+{
+  message: 'config express js and routes ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:30:57.661Z'
+}
+{
+  message: 'app name: GuessLife backend (dev)',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:30:57.680Z'
+}
+{
+  message: 'env: developement',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:30:57.681Z'
+}
+{
+  message: 'morgan enabled',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:30:57.682Z'
+}
+{
+  message: 'Connected to mongodb ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:30:57.705Z'
+}
+{
+  message: 'config express js and routes ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:31:39.682Z'
+}
+{
+  message: 'app name: GuessLife backend (dev)',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:31:39.702Z'
+}
+{
+  message: 'env: developement',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:31:39.703Z'
+}
+{
+  message: 'Connected to mongodb ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:31:39.727Z'
+}
+{
+  message: 'morgan enabled',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:32:13.533Z'
+}
+{
+  message: 'config express js and routes ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:32:13.539Z'
+}
+{
+  message: 'app name: GuessLife backend (dev)',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:32:13.554Z'
+}
+{
+  message: 'env: developement',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:32:13.556Z'
+}
+{
+  message: 'Connected to mongodb ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:32:13.582Z'
+}
+{
+  message: 'morgan enabled',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:32:37.610Z'
+}
+{
+  message: 'config express js and routes ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:32:37.615Z'
+}
+{
+  message: 'app name: GuessLife backend (dev)',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:32:37.631Z'
+}
+{
+  message: 'env: developement',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:32:37.632Z'
+}
+{
+  message: 'Connected to mongodb ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:32:37.662Z'
+}
+{
+  message: 'morgan enabled',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:32:53.210Z'
+}
+{
+  message: 'config express js and routes ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:32:53.216Z'
+}
+{
+  message: 'app name: GuessLife backend (dev)',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:32:53.232Z'
+}
+{
+  message: 'env: developement',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:32:53.233Z'
+}
+{
+  message: 'Connected to mongodb ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:32:53.270Z'
+}
+{
+  message: 'morgan enabled',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:01.866Z'
+}
+{
+  message: 'config express js and routes ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:01.873Z'
+}
+{
+  message: 'app name: GuessLife backend (dev)',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:01.914Z'
+}
+{
+  message: 'env: developement',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:01.915Z'
+}
+{
+  message: 'Connected to mongodb ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:01.972Z'
+}
+{
+  message: 'morgan enabled',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:15.169Z'
+}
+{
+  message: 'config express js and routes ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:15.177Z'
+}
+{
+  message: 'app name: GuessLife backend (dev)',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:15.192Z'
+}
+{
+  message: 'env: developement',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:15.193Z'
+}
+{
+  message: 'Connected to mongodb ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:15.213Z'
+}
+{
+  message: 'morgan enabled',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:20.078Z'
+}
+{
+  message: 'config express js and routes ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:20.083Z'
+}
+{
+  message: 'app name: GuessLife backend (dev)',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:20.100Z'
+}
+{
+  message: 'env: developement',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:20.100Z'
+}
+{
+  message: 'Connected to mongodb ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:20.122Z'
+}
+{
+  message: 'morgan enabled',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:32.231Z'
+}
+{
+  message: 'config express js and routes ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:32.237Z'
+}
+{
+  message: 'app name: GuessLife backend (dev)',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:32.255Z'
+}
+{
+  message: 'env: developement',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:32.260Z'
+}
+{
+  message: 'Connected to mongodb ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:33:32.281Z'
+}
+{
+  message: 'morgan enabled',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:35:36.210Z'
+}
+{
+  message: 'config express js and routes ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:35:36.215Z'
+}
+{
+  message: 'app name: GuessLife backend (dev)',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:35:36.237Z'
+}
+{
+  message: 'env: developement',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:35:36.238Z'
+}
+{
+  message: 'Connected to mongodb ...',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T06:35:36.260Z'
+}
