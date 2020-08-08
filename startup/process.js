@@ -1,3 +1,5 @@
+const logger = require(',./middleware/logger');
+
 module.exports = function() {
     
     process.on('uncaughtException', (ex) => {

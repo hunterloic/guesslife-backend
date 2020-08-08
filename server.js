@@ -1,8 +1,3 @@
-// const http = require('http');
-// const app = require('./app');
-
-
-
 require('express-async-errors');
 const config = require('config');
 const express = require('express');
@@ -19,5 +14,5 @@ logger.info(`env: ${app.get('env')}`);
 
 const port = process.env.GUESSLIFE_BACK_PORT || 3030;
 app.listen(port, () => {
-    console.log(`server started on port ${port}`, );
+    logger.info(`server started on port ${port}`, );
 });
