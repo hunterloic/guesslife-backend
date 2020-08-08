@@ -4,11 +4,9 @@ const winston = require('winston');
 
 const router = express.Router();
 
-
 // get all game defs
 router.get('/', async (req, res) => {
     winston.info('hey !!!!')
-    throw new Error('custom error');
     const gamedefs = await Gamedef.find();
     res.send(gamedefs);
 });
