@@ -9,7 +9,11 @@ const app = express();
 
 mongoose.connect(
     'mongodb://localhost/guesslife', 
-    { useNewUrlParser: true, useUnifiedTopology: true })
+    { 
+        useNewUrlParser: true, 
+        useUnifiedTopology: true,
+        useFindAndModify : false,
+    })
 .then(() => console.log('Connected to mongodb ...'))
 .catch(() => console.log('could not connect to mongodb ...'));
 

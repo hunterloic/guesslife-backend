@@ -1,52 +1,63 @@
-const Joi = require('joi');
+const { Gamedef, validate } = require('../models/gamedef');
 const express = require('express');
-const createGamedef = require('../db/gamedef');
+
 const router = express.Router();
 
 // get all game defs
-router.get('/', (req, res) => {
-    const gamedefs = 1; //todo : get from mongodb
-    
-    res.send({res:1});
+router.get('/', async (req, res) => {
+    const gamedefs = await Gamedef.find();
+    res.send(gamedefs);
 });
 
 // get 1 game defs
-router.get('/:id', (req, res) => {
-    const gamedef = 1; //todo : get from mongodb
+router.get('/:id', async (req, res) => {
+    const { id } = req.params;
+    const gamedef = await Gamedef.findById(id);
+    if(!gamedef) return res.status(404).send({ error: `No game def with the id ${id}` })
 
-    res.send({res:1});
+    res.send(gamedef);
 });
 
 // create 1
-router.post('/', (req, res) => {
-
-    const { error } = validateGameDef(req.body);
+router.post('/', async (req, res) => {
+    const { error } = validate(req.body);
     if(error) return res.status(400).send({error : error.details[0].message});
 
-    const result = createGamedef();
+    const gamedef = new Gamedef({
+        name: req.body.name,
+        description: req.body.name,
+        author: req.body.author,
+    });
+
+    const result = await gamedef.save();
 
     res.send(result);
 });
 
 // update 1
-router.put('/:id', (req, res) => {
-    const gamedef = 1; //todo : get from mongodb
-
-    const { error } = validateGameDef(req.body);
+router.put('/:id', async (req, res) => {
+    const { error } = validate(req.body);
     if(error) return res.status(400).send({error : error.details[0].message});
+
+    const { id } = req.params;
+    const gamedef = await Gamedef.findByIdAndUpdate(id, {
+        name: req.body.name,
+        description: req.body.name,
+        author: req.body.author,
+        updatedDateTime: new Date()
+    });
+    if(!gamedef) return res.status(404).send({ error: `No game def with the id ${id}` })
     
-    res.send({res:1});
+    res.send(gamedef);
 });
 
-function validateGameDef(gamedef) {
-    const schema = {
-        name: Joi.string().min(3).max(50).required(),
-        description: Joi.string().min(3).max(255).required(),
-        author: Joi.string().min(3).max(50).required(),
-        // published: Joi.boolean(),
-    }
-
-    return Joi.validate(gamedef, schema);
-}
+// update 1
+router.delete('/:id', async (req, res) => {
+    const { id } = req.params;
+    const gamedef = await Gamedef.findByIdAndRemove(id);
+    if(!gamedef) return res.status(404).send({ error: `No game def with the id ${id}` })
+    
+    res.send(gamedef);
+});
 
 module.exports = router;
