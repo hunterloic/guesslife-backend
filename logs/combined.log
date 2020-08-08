@@ -1,0 +1,120 @@
+{
+  message: 'some infos',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2020-08-08T05:43:22.013Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: 'oucha! oucha!',
+  stack: 'Error: oucha!\n' +
+    '    at Object.<anonymous> (D:\\Users\\Loic2\\Documents\\Dev\\guesslife\\guesslife-backend\\server.js:23:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:955:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:811:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:723:14)\n' +
+    '    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)\n' +
+    '    at internal/main/run_main_module.js:17:11',
+  timestamp: '2020-08-08T05:43:22.018Z'
+}
+{
+  message: 'some infos',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T05:43:52.130Z'
+}
+{
+  service: 'guesslife-backend',
+  level: 'error',
+  message: 'oucha! oucha!',
+  stack: 'Error: oucha!\n' +
+    '    at Object.<anonymous> (D:\\Users\\Loic2\\Documents\\Dev\\guesslife\\guesslife-backend\\server.js:23:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:955:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:811:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:723:14)\n' +
+    '    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)\n' +
+    '    at internal/main/run_main_module.js:17:11',
+  timestamp: '2020-08-08T05:43:52.135Z'
+}
+{
+  message: 'some infos',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T05:44:08.181Z'
+}
+{
+  service: 'guesslife-backend',
+  level: 'error',
+  message: 'oucha! oucha!',
+  stack: 'Error: oucha!\n' +
+    '    at Object.<anonymous> (D:\\Users\\Loic2\\Documents\\Dev\\guesslife\\guesslife-backend\\server.js:23:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:955:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:811:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:723:14)\n' +
+    '    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)\n' +
+    '    at internal/main/run_main_module.js:17:11',
+  timestamp: '2020-08-08T05:44:08.186Z'
+}
+{
+  message: 'some infos',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T05:44:18.068Z'
+}
+{
+  service: 'guesslife-backend',
+  level: 'error',
+  message: 'oucha! oucha!',
+  stack: 'Error: oucha!\n' +
+    '    at Object.<anonymous> (D:\\Users\\Loic2\\Documents\\Dev\\guesslife\\guesslife-backend\\server.js:23:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:955:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:811:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:723:14)\n' +
+    '    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)\n' +
+    '    at internal/main/run_main_module.js:17:11',
+  timestamp: '2020-08-08T05:44:18.074Z'
+}
+{
+  message: 'some infos',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T05:44:28.693Z'
+}
+{
+  service: 'guesslife-backend',
+  level: 'error',
+  message: 'oucha! oucha!',
+  stack: 'Error: oucha!\n' +
+    '    at Object.<anonymous> (D:\\Users\\Loic2\\Documents\\Dev\\guesslife\\guesslife-backend\\server.js:23:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:955:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:811:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:723:14)\n' +
+    '    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)\n' +
+    '    at internal/main/run_main_module.js:17:11',
+  timestamp: '2020-08-08T05:44:28.699Z'
+}
+{
+  message: 'some infos',
+  level: 'info',
+  service: 'guesslife-backend',
+  timestamp: '2020-08-08T05:46:52.208Z'
+}
+{
+  service: 'guesslife-backend',
+  level: 'error',
+  message: 'oucha! oucha!',
+  stack: 'Error: oucha!\n' +
+    '    at Object.<anonymous> (D:\\Users\\Loic2\\Documents\\Dev\\guesslife\\guesslife-backend\\server.js:23:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:955:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:811:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:723:14)\n' +
+    '    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)\n' +
+    '    at internal/main/run_main_module.js:17:11',
+  timestamp: '2020-08-08T05:46:52.215Z'
+}

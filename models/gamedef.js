@@ -17,7 +17,6 @@ function validate(gamedef) {
         name: Joi.string().min(3).max(50).required(),
         description: Joi.string().min(3).max(255).required(),
         author: Joi.string().min(3).max(50).required(),
-        // published: Joi.boolean(),
     }
 
     return Joi.validate(gamedef, schema);

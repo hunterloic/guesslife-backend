@@ -1,10 +1,14 @@
 const { Gamedef, validate } = require('../models/gamedef');
 const express = require('express');
+const winston = require('winston');
 
 const router = express.Router();
 
+
 // get all game defs
 router.get('/', async (req, res) => {
+    winston.info('hey !!!!')
+    throw new Error('custom error');
     const gamedefs = await Gamedef.find();
     res.send(gamedefs);
 });
@@ -28,10 +32,9 @@ router.post('/', async (req, res) => {
         description: req.body.name,
         author: req.body.author,
     });
+    await gamedef.save();
 
-    const result = await gamedef.save();
-
-    res.send(result);
+    res.send(gamedef);
 });
 
 // update 1
