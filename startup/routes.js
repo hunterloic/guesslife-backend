@@ -1,5 +1,6 @@
 const error = require('../middleware/error');
 const gamedefs = require('../routes/gamedefs');
+const gameevents = require('../routes/gameevents');
 const helmet = require('helmet');
 const morgan = require('morgan');
 const express = require('express');
@@ -19,6 +20,7 @@ module.exports = function (app) {
     app.use(helmet());
 
     app.use('/api/gamedefs', gamedefs);
+    app.use('/api/gameevents', gameevents);
 
     app.use(error);
 }

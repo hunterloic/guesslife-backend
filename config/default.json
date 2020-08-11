@@ -1,3 +1,4 @@
 {
-    "name": "GuessLife backend"
+    "name": "GuessLife backend",
+    "numberOfStatus": 3
 }

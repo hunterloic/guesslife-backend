@@ -1,17 +1,15 @@
 const { Gamedef, validate } = require('../models/gamedef');
 const express = require('express');
-const winston = require('winston');
 
 const router = express.Router();
 
-// get all game defs
+// get all
 router.get('/', async (req, res) => {
-    winston.info('hey !!!!')
     const gamedefs = await Gamedef.find();
     res.send(gamedefs);
 });
 
-// get 1 game defs
+// get 1
 router.get('/:id', async (req, res) => {
     const { id } = req.params;
     const gamedef = await Gamedef.findById(id);
@@ -27,8 +25,9 @@ router.post('/', async (req, res) => {
 
     const gamedef = new Gamedef({
         name: req.body.name,
-        description: req.body.name,
+        description: req.body.description,
         author: req.body.author,
+        status: req.body.status,
     });
     await gamedef.save();
 
@@ -43,8 +42,9 @@ router.put('/:id', async (req, res) => {
     const { id } = req.params;
     const gamedef = await Gamedef.findByIdAndUpdate(id, {
         name: req.body.name,
-        description: req.body.name,
+        description: req.body.description,
         author: req.body.author,
+        status: req.body.status,
         updatedDateTime: new Date()
     });
     if(!gamedef) return res.status(404).send({ error: `No game def with the id ${id}` })
@@ -52,7 +52,7 @@ router.put('/:id', async (req, res) => {
     res.send(gamedef);
 });
 
-// update 1
+// delete 1
 router.delete('/:id', async (req, res) => {
     const { id } = req.params;
     const gamedef = await Gamedef.findByIdAndRemove(id);
