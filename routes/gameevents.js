@@ -1,5 +1,6 @@
 const { Gameevent, validate } = require('../models/gameevent');
 const express = require('express');
+var _ = require('lodash');
 
 const router = express.Router();
 
@@ -27,6 +28,8 @@ router.post('/', async (req, res) => {
     const gameevent = new Gameevent({
         description: req.body.description,
         gamedef: req.body.gamedef,
+        yesAction: _.cloneDeep(req.body.yesAction),
+        noAction: _.cloneDeep(req.body.noAction),
     });
     await gameevent.save();
 
@@ -42,8 +45,10 @@ router.put('/:id', async (req, res) => {
     const gameevent = await Gameevent.findByIdAndUpdate(id, {
         description: req.body.description,
         gamedef: req.body.gamedef,
+        yesAction: _.cloneDeep(req.body.yesAction),
+        noAction: _.cloneDeep(req.body.noAction),
         updatedDateTime: new Date()
-    });
+    }, {new: true});
     if(!gameevent) return res.status(404).send({ error: `No game event with the id ${id}` })
     
     res.send(gameevent);

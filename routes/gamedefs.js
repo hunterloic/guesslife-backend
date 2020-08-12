@@ -46,7 +46,7 @@ router.put('/:id', async (req, res) => {
         author: req.body.author,
         status: req.body.status,
         updatedDateTime: new Date()
-    });
+    }, {new: true});
     if(!gamedef) return res.status(404).send({ error: `No game def with the id ${id}` })
     
     res.send(gamedef);

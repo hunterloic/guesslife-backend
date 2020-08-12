@@ -325,3 +325,39 @@
     '    at processTicksAndRejections (internal/process/task_queues.js:94:5)',
   timestamp: '2020-08-11T14:34:13.957Z'
 }
+{
+  service: 'guesslife-backend',
+  errors: {
+    noAction: ValidatorError: Path `noAction` is required.
+        at validate (D:\Users\Loic2\Documents\Dev\guesslife\guesslife-backend\node_modules\mongoose\lib\schematype.js:1217:13)
+        at D:\Users\Loic2\Documents\Dev\guesslife\guesslife-backend\node_modules\mongoose\lib\schematype.js:1200:7
+        at Array.forEach (<anonymous>)
+        at SingleNestedPath.SchemaType.doValidate (D:\Users\Loic2\Documents\Dev\guesslife\guesslife-backend\node_modules\mongoose\lib\schematype.js:1145:14)
+        at SingleNestedPath.doValidate (D:\Users\Loic2\Documents\Dev\guesslife\guesslife-backend\node_modules\mongoose\lib\schema\SingleNestedPath.js:246:35)
+        at D:\Users\Loic2\Documents\Dev\guesslife\guesslife-backend\node_modules\mongoose\lib\document.js:2392:18
+        at processTicksAndRejections (internal/process/task_queues.js:76:11) {
+      properties: {
+        validator: [Function],
+        message: 'Path `noAction` is required.',
+        type: 'required',
+        path: 'noAction',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'noAction',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Gameevent validation failed',
+  level: 'error',
+  message: 'Gameevent validation failed: noAction: Path `noAction` is required. Gameevent validation failed: noAction: Path `noAction` is required.',
+  stack: 'ValidationError: Gameevent validation failed: noAction: Path `noAction` is required.\n' +
+    '    at model.Document.invalidate (D:\\Users\\Loic2\\Documents\\Dev\\guesslife\\guesslife-backend\\node_modules\\mongoose\\lib\\document.js:2579:32)\n' +
+    '    at D:\\Users\\Loic2\\Documents\\Dev\\guesslife\\guesslife-backend\\node_modules\\mongoose\\lib\\document.js:2399:17\n' +
+    '    at D:\\Users\\Loic2\\Documents\\Dev\\guesslife\\guesslife-backend\\node_modules\\mongoose\\lib\\schema\\SingleNestedPath.js:248:14\n' +
+    '    at D:\\Users\\Loic2\\Documents\\Dev\\guesslife\\guesslife-backend\\node_modules\\mongoose\\lib\\schematype.js:1220:9\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:76:11)',
+  timestamp: '2020-08-12T03:23:18.465Z'
+}

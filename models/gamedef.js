@@ -23,7 +23,11 @@ const Gamedef = mongoose.model(
             minlength: 3,
             maxlength: 50,
         },
-        status: [String],
+        status: {
+            type: Array,
+            of: String,
+            required: true
+        },
         createdDateTime: { type: Date, default: Date.now },
         updatedDateTime: { type: Date, default: Date.now }
     })
